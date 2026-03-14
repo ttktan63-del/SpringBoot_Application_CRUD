@@ -37,11 +37,11 @@ Before running the application, ensure you have:
 ## ⚙️ Setup and Installation
 
 ### 1. Database Configuration
-1. Create a new database in your SQL Server (e.g., named `CardDB`).
+1. Create a new database in your SQL Server (e.g., named `TESTDB`).
 2. Open `src/main/resources/application.properties` and update the connection string with your local credentials:
 
 ```properties
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=CardDB;encrypt=true;trustServerCertificate=true
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=TESTDB;encrypt=true;trustServerCertificate=true
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 # This will automatically create tables based on your Entity classes
@@ -84,7 +84,6 @@ Following professional standards, this application logs all external API interac
 **Example Log Output:**
 ```json
 === STRIPE SUCCESS & SAVED === 
-Transaction ID: pi_3TAvyFI3fR4QNqUH12y1eFWl
 {
   "id" : "pi_3TAvyFI3fR4QNqUH12y1eFWl",
   "amount" : 5000,
