@@ -16,7 +16,7 @@ A Spring Boot application designed to manage credit/debit card records, featurin
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Java 17, Spring Boot 3.x
+- **Backend**: Java 17, Spring Boot
 - **Database**: Microsoft SQL Server
 - **Dependency Management**: Maven
 - **External API**: Stripe REST API
